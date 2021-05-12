@@ -70,3 +70,73 @@ pandas_dataframe = pd.DataFrame({
     1. Try adding various other columns together. What are the results of
        combining the different data types?
 
+1. Type casting
+
+    1. Use the starter code above to re-create a spark dataframe.
+
+    1. Use `.printSchema` to view the datatypes in your dataframe.
+
+    1. Use `.dtypes` to view the datatypes in your dataframe.
+
+    1. What is the difference between the two code samples below?
+
+        ```python
+        df.abool.cast('int')
+        ```
+
+        ```python
+        df.select(df.abool.cast('int')).show()
+        ```
+
+    1. Use `.select` and `.cast` to convert the `abool` column to an integer
+       type. View the results.
+    1. Convert the `group` column to a integer data type and view the results.
+       What happens?
+    1. Convert the `n` column to a integer data type and view the results. What
+       happens?
+    1. Convert the `abool` column to a string data type and view the results.
+       What happens?
+
+1. Built-in Functions
+
+    1. Use the starter code above to re-create a spark dataframe.
+    1. Import the necessary functions from `pyspark.sql.functions`
+    1. Find the highest `n` value.
+    1. Find the lowest `n` value.
+    1. Find the average `n` value.
+    1. Use `concat` to change the `group` column to say, e.g. "Group: x" or
+       "Group: y"
+    1. Use `concat` to combine the `n` and `group` columns to produce results
+       that look like this: "x: -1.432" or "z: 2.352"
+
+1. When / Otherwise
+
+    1. Use the starter code above to re-create a spark dataframe.
+    1. Use `when` and `.otherwise` to create a column that contains the text "It
+       is true" when `abool` is true and "It is false"" when `abool` is false.
+    1. Create a column that contains 0 if n is less than 0, otherwise, the
+       original n value.
+
+1. Filter / Where
+
+    1. Use the starter code above to re-create a spark dataframe.
+    1. Use `.filter` or `.where` to select just the rows where the group is `y`
+       and view the results.
+    1. Select just the columns where the `abool` column is false and view the
+       results.
+    1. Find the columns where the `group` column is *not* `y`.
+    1. Find the columns where `n` is positive.
+    1. Find the columns where `abool` is true and the `group` column is `z`.
+    1. Find the columns where `abool` is true or the `group` column is `z`.
+    1. Find the columns where `abool` is false and `n` is less than 1
+    1. Find the columns where `abool` is false or `n` is less than 1
+
+1. Sorting
+
+    1. Use the starter code above to re-create a spark dataframe.
+    1. Sort by the `n` value.
+    1. Sort by the `group` value, both ascending and descending.
+    1. Sort by the group value first, then, within each group, sort by `n`
+       value.
+    1. Sort by `abool`, `group`, and `n`. Does it matter in what order you
+       specify the columns when sorting?
