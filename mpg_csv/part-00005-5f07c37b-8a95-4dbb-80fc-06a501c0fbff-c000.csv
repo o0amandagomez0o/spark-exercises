@@ -1,0 +1,29 @@
+nissan,altima,3.5,2008,6,manual(m6),f,19,27,p,midsize
+nissan,altima,3.5,2008,6,auto(av),f,19,26,p,midsize
+nissan,maxima,3.0,1999,6,auto(l4),f,18,26,r,midsize
+nissan,maxima,3.0,1999,6,manual(m5),f,19,25,r,midsize
+nissan,maxima,3.5,2008,6,auto(av),f,19,25,p,midsize
+nissan,pathfinder 4wd,3.3,1999,6,auto(l4),4,14,17,r,suv
+nissan,pathfinder 4wd,3.3,1999,6,manual(m5),4,15,17,r,suv
+nissan,pathfinder 4wd,4.0,2008,6,auto(l5),4,14,20,p,suv
+nissan,pathfinder 4wd,5.6,2008,8,auto(s5),4,12,18,p,suv
+pontiac,grand prix,3.1,1999,6,auto(l4),f,18,26,r,midsize
+pontiac,grand prix,3.8,1999,6,auto(l4),f,16,26,p,midsize
+pontiac,grand prix,3.8,1999,6,auto(l4),f,17,27,r,midsize
+pontiac,grand prix,3.8,2008,6,auto(l4),f,18,28,r,midsize
+pontiac,grand prix,5.3,2008,8,auto(s4),f,16,25,p,midsize
+subaru,forester awd,2.5,1999,4,manual(m5),4,18,25,r,suv
+subaru,forester awd,2.5,1999,4,auto(l4),4,18,24,r,suv
+subaru,forester awd,2.5,2008,4,manual(m5),4,20,27,r,suv
+subaru,forester awd,2.5,2008,4,manual(m5),4,19,25,p,suv
+subaru,forester awd,2.5,2008,4,auto(l4),4,20,26,r,suv
+subaru,forester awd,2.5,2008,4,auto(l4),4,18,23,p,suv
+subaru,impreza awd,2.2,1999,4,auto(l4),4,21,26,r,subcompact
+subaru,impreza awd,2.2,1999,4,manual(m5),4,19,26,r,subcompact
+subaru,impreza awd,2.5,1999,4,manual(m5),4,19,26,r,subcompact
+subaru,impreza awd,2.5,1999,4,auto(l4),4,19,26,r,subcompact
+subaru,impreza awd,2.5,2008,4,auto(s4),4,20,25,p,compact
+subaru,impreza awd,2.5,2008,4,auto(s4),4,20,27,r,compact
+subaru,impreza awd,2.5,2008,4,manual(m5),4,19,25,p,compact
+subaru,impreza awd,2.5,2008,4,manual(m5),4,20,27,r,compact
+toyota,4runner 4wd,2.7,1999,4,manual(m5),4,15,20,r,suv
